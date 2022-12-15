@@ -1,0 +1,26 @@
+@font-face{
+  src: url("../font/PressStart2P-Regular.ttf");
+  font-family: "2p";
+}
+
+body{
+  font-family: "2p";
+  background-color: #B0B2B2;
+  text-align: center;
+}
+
+button{
+  font-family: "2p";
+}
+
+.outBox{
+  border: 4px solid;
+  border-color: #EBEBEB #747474 #747474 #EBEBEB;
+  background-color: #B0B2B2;
+}
+
+.inBox{
+  border: 4px solid;
+  border-color: #747474 #EBEBEB #EBEBEB #747474;
+  background-color: #B0B2B2;
+}

@@ -1,0 +1,25 @@
+#settingBody{
+  width: 600px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.otherPages{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  justify-content: center;
+  grid-gap: 15px;
+}
+
+.inputGame{
+  display:grid;
+}
+
+button{
+  height: 50px;
+}
+
+button:hover{
+  border-color: #747474 #EBEBEB #EBEBEB #747474;
+}

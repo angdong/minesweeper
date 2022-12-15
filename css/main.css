@@ -1,0 +1,131 @@
+table{
+  /* border-collapse: collapse; */
+}
+
+td{
+  width: 30px;
+  height: 30px;
+  /* background-color: #6A6969; */
+  background-color: #B0B2B2;
+  color: #B0B2B2;
+  border: 2px solid;
+  border-color: #747474;
+  box-sizing: border-box;
+}
+
+h3{
+  margin-top: 5px;
+}
+
+.unclicked{
+  background-size: 0 0 !important;
+  border: 2px solid;
+  border-color: #EBEBEB #747474 #747474 #EBEBEB;
+  border-color: white #747474 #747474 white;
+
+  box-sizing: border-box;
+  color: #B0B2B2 !important;
+}
+
+.unclicked:hover{
+  border-color: #747474 #EBEBEB #EBEBEB #747474;
+  /* border-color: red; */
+}
+
+#gameBoard{
+  display:flex;
+  justify-content: center;
+  width: auto;
+  margin: 0 auto;
+}
+
+#goMain{
+  margin: 0 auto;
+  height: 36px;
+}
+
+#backBtn:hover{
+  border-color: #747474 #EBEBEB #EBEBEB #747474;
+}
+
+#backBtn{
+  height: 30px;
+}
+
+.stateBar{
+  margin: 0 auto;
+  height: 50px;
+  width: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  justify-content: space-between;
+}
+
+.emoji{
+  margin: 0 auto;
+  height: 40px;
+  width: 40px;
+  background-image: url('../assets/smile.png');
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flag{
+  background-image: url('../assets/flag.png');
+  background-size: 16px !important;
+  font-size: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.question{
+  background-image: url('../assets/question.png');
+  background-size: 16px !important;
+  font-size: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.emoji:hover{
+  border-color: #747474 #EBEBEB #EBEBEB #747474;
+}
+
+.mine{
+  background-image: url('../assets/mine.png');
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.color_1{
+  color: blue;
+}
+
+.color_2{
+  color: green;
+}
+
+.color_3{
+  color: red;
+}
+
+.color_4{
+  color: DarkBlue;
+}
+
+.color_5{
+  color: DarkRed;
+}
+
+.color_6{
+  color: Fuchsia;
+}
+
+.color_7{
+  color: Orange;
+}
+
+.color_8{
+  color: #3ee0e0;
+}
