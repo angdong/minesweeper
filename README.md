@@ -1,0 +1,2 @@
+# minesweeper
+prototype of minesweeper
