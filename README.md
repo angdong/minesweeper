@@ -1,10 +1,10 @@
 # minesweeper
 ---
+can play in [link](https://angdong.github.io/minesweeper/)\
 rule & how to play is same as original
 
 <!-- ![.](/assets/example.png) -->
 <img src="/assets/example.png" width="300" height="430"/>
-Can play by just clicking setting.html
 
 Game settings are below.
 ||size|# of mines|
