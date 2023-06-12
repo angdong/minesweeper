@@ -3,7 +3,6 @@
 can play in [link](https://angdong.github.io/minesweeper/)\
 rule & how to play is same as original
 
-<!-- ![.](/assets/example.png) -->
 <img src="/assets/example.png" width="300" height="430"/>
 
 Game settings are below.
